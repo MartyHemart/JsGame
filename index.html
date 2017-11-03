@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>my game</title>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<body>
+
+  <h1 class="titre"> HalloClick <i class="fa fa-gamepad" aria-hidden="true"></i> </h1>
+  <button class="reset" data-action="reset">Reset</button>
+  <section data-state="optionScreen" class="gamesCreams hidden"><br>
+    <label> Nombre de case sur l'axe X</label> <br>
+    <input class="case" type="number" name="x" value="10"> <br>
+    <label> Nombre de case sur l'axe Y</label> <br>
+    <input class="case" type="number" name="y" value="10"> <br>
+    <button data-action="startGame" name="button">Start Game</button>
+  </section>
+  <section data-state="gameScreen" class='gamesCreams hidden'></section>
+  <section data-state="victory"> <h1 class="victoir"> Bravo </h1> </section>
+  <section data-state="defeat"> <h1 class="victoir"> game over </h1></section>
+
+</body>
+<script
+src="https://code.jquery.com/jquery-3.2.1.js"
+integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/javascript.js"></script>
+</html>

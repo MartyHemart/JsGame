@@ -1,0 +1,63 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+section[data-state="gameScreen;"]{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.gameContainer{
+  display: flex;
+  flex-wrap: wrap;
+  display: inline-flex;
+  padding-top: 2%;
+}
+
+.gameDiv {
+  height: 20px;
+  width: 20px;
+  border: 1px solid black;
+}
+
+.gamesCreams {
+  width: 70vw;
+  height: 70vh;
+  background-color: white;
+  text-align: center;
+}
+
+.hidden {
+display: none;
+
+}
+
+.reset {   /* le bouton reset */
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.titre { /* le titre du jeu */
+  position: fixed;
+  top: 0px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.case {
+  text-align: center;
+  display: flex;
+  display: unset;
+}
+
+.victoir {
+  color: white;
+  background: red;
+}
